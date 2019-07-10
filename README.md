@@ -10,3 +10,5 @@ EMA
   - ⭐⭐☆ [Repelling Eigenvalues](Probability/Repelling%20EigenValues.ipynb)
   - ⭐☆☆  [Wigner Semicircle Law](Probability/Wigner.ipynb)
   
+  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bidgoli/Exploratory-Math-Analysis/master?filepath=README.md)
+  
