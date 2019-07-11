@@ -1,6 +1,5 @@
 # Exploratory-Math-Analysis
 EMA
-Modified!
 
 ## Table of Contents
 - Analysis
