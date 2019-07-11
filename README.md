@@ -13,5 +13,5 @@ EMA
   
   ----------
   ### Interactive Notebooks
-  You may try everynotebook in Binder :   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bidgoli/Exploratory-Math-Analysis/master)
+  You may try every notebook in Binder :   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bidgoli/Exploratory-Math-Analysis/master)
   
