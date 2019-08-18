@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://bl.ocks.org/tweed1e/raw/baf077d569dd6de28cd2/ -->
+<html class="gr__bl_ocks_org"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+.node {
+  fill: #000;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+.link {
+  stroke: #000;
+  stroke-opacity: 0.6;
+}
+</style>
+</head><body data-gr-c-s-loaded="true">
+alpha = <input type="text" placeholder="-5" id="alph" />
+<input type="button" onclick="setalpha()" value="Run" />
+<script src="./Powers_files/d3.min.js.download" charset="utf-8"></script>
+<script>
+
+
+
+var nodes=[], //[{ "id": 0 }],
+    links=[];
+var width = 900,
+    height = 550;
+var N=100; // nodes.
+
+// so redo this bit. set up nodes to start.
+//for (var i = 0; i < m; i++) {
+//    nodes.push({"id": i, "degree": 0});
+//}
+
+//for (var i=0; i < m; i++ ) {
+//    for (var j=0; j < i; j++) {
+//        if (i!=j) {
+//            links.push({"source": i, "target": j});
+//        }
+//    }
+//}
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var force = d3.layout.force()
+    .charge(-200)
+    .linkDistance(1)
+    .friction(1)
+    .gravity(0.5)
+    .nodes(nodes)
+    .links(links)
+    .size([width, height])
+    .on("tick", tick);
+
+var link = svg.selectAll(".link");
+/*
+link.data(links)
+    .enter().append("line")
+    .attr("class", "link");
+*/
+var node = svg.selectAll(".node");
+/*
+node.data(nodes)
+    .enter().append("circle")
+    .attr("class", "node")
+    .attr("r", 5);
+*/
+function nodeStart() {
+    nodes.push({"id": i, "degree": 0});
+console.log(i);
+    node = node.data(force.nodes());
+    node.enter().append("circle")
+        .attr("class", "node")
+        .attr("r", 8/Math.sqrt(i+1));
+//    node.exit().remove();
+    force.start();
+}
+
+function linkStart() {
+    force.nodes()[i].degree+=1;
+    force.nodes()[j].degree+=1;
+    force.links().push({"source": i, "target": j}); // need to add nodes too.
+    link = link.data(force.links()); //, function(d) { return d.source.id + "-" + d.target.id; });
+    link.enter().append("line").attr("class","link"); //.insert("line", ".node").attr("class", "link");
+    link.exit().remove();
+
+    force.start();
+}
+function tick() {
+  link.attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+  node.attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; });
+
+//  force.start();
+}
+	var totalDegree=0;
+	var degseq=0;
+	var partialDegree=0;
+	var randomguy=0;
+	var alpha=0
+//var alpha=-5; //power
+//var alpha=parseFloat(document.getElementById("alph").value);
+function setalpha(){
+	alpha=parseFloat(document.getElementById("alph").value);
+	var int = setInterval(update, 500);
+}
+
+var i=0, // starts at m, since m nodes (0,...,m-1) already exist.
+    j=0;
+    nodeStart();
+
+i=1;
+function update() {
+
+    if (i<N){
+	nodeStart();
+// force.nodes()[0].degree
+
+
+// hmm. [0, 1*degree[1]] is 1, [1*degree[1], 1*degree[1]+2*degree[2]] is 2, etc.
+	    totalDegree=0;
+//	    degseq=0
+	    if (i>1) {
+    		for (var b=0; b<i; b++) {
+	        	totalDegree+=Math.pow(Math.max(1,force.nodes()[b].degree),alpha);
+//	        	degseq+=force.nodes()[b].degree;
+//		        degseq*=10;
+		    }
+	    }
+//	    console.log(degseq);
+	    console.log(totalDegree);
+	    randomguy=Math.random()*totalDegree;
+	    console.log(randomguy);
+	    j=-1;
+	    partialDegree=0;
+	    while (partialDegree<randomguy && j < i-1) {
+	    	j++;
+    	    partialDegree+=Math.pow(Math.max(1,force.nodes()[j].degree),alpha);
+	    }
+	    if (j<0) j=0;
+	    console.log(force.nodes()[j].degree);
+//        j=Math.floor(Math.random()*(i)); // but probability that i is picked depends on degree i relative to the rest.
+//        force.nodes()[i].degree=1;
+//        force.nodes()[j].degree+=1;
+        linkStart();
+	}
+    i++;
+	if (i>=N & i<10*N) {
+	
+	
+	}
+    if (i>=10*N) {
+      force.stop();
+      clearInterval(int);
+    }
+//    console.log('(i,j): (' + i + ',' + j + ')');
+}
+
+
+//var int = setInterval(update, 500);
+</script>
+</body></html>
