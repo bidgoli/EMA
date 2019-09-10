@@ -4,6 +4,7 @@ EMA
 ## Table of Contents
 - Analysis
   - ⭐⭐⭐ [Polynomial Roots](Analysis/Polynomial_Roots.ipynb)
+  - ⭐⭐☆ [Animated Functions _ Polar Coordinate](Analysis/Polar.ipynb)
 - Probability
   - ⭐⭐☆ [Balls and Bins](Probability/Balls&Bins.ipynb) - [Interactive version](Probability/Balls%26Bins-Interact.ipynb)
   - ⭐⭐☆ [Beta Distribution](Probability/Beta.ipynb)
