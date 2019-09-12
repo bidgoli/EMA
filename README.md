@@ -17,3 +17,11 @@ EMA
   ### Interactive Notebooks
   You may try every notebook in Binder :   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bidgoli/Exploratory-Math-Analysis/master)
   
+  -----------
+  ### Some JavaScript Doodling!
+  
+  - ⭐☆☆ [Espresso](https://editor.p5js.org/bidgoli/present/vdwt7Vc1C)
+  - ⭐⭐☆ [Primes on Spiral](https://editor.p5js.org/bidgoli/present/Vlnckcu9H)
+  - ⭐⭐☆ [theta ∝ r](https://editor.p5js.org/BD_BD/sketches/5DUMYvu64)
+  
+  
