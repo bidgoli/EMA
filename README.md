@@ -20,8 +20,9 @@ EMA
   -----------
   ### Some JavaScript Doodling!
   
+  - ⭐☆☆ [Epicycloids](https://editor.p5js.org/bidgoli/present/ZyJTIeGg4)
   - ⭐☆☆ [Espresso](https://editor.p5js.org/bidgoli/present/vdwt7Vc1C)
   - ⭐⭐☆ [Primes on Spiral](https://editor.p5js.org/bidgoli/present/Vlnckcu9H)
-  - ⭐⭐⭐ [theta ∝ r](https://editor.p5js.org/bidgoli/present/5DUMYvu64)
+  - ⭐⭐☆ [theta ∝ r](https://editor.p5js.org/bidgoli/present/5DUMYvu64)
   
   
