@@ -22,6 +22,7 @@ EMA
   
   - ⭐☆☆ [Epicycloids](https://editor.p5js.org/bidgoli/present/ZyJTIeGg4)
   - ⭐☆☆ [Espresso](https://editor.p5js.org/bidgoli/present/vdwt7Vc1C)
+  - ⭐⭐⭐ [Lissajous Curve](https://editor.p5js.org/bidgoli/present/sIMNex1qN)
   - ⭐⭐☆ [Primes on Spiral](https://editor.p5js.org/bidgoli/present/Vlnckcu9H)
   - ⭐⭐☆ [theta ∝ r](https://editor.p5js.org/bidgoli/present/5DUMYvu64)
   
