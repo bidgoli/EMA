@@ -24,7 +24,7 @@ EMA
   - ⭐☆☆ [Espresso](https://editor.p5js.org/bidgoli/present/vdwt7Vc1C)
   - ⭐⭐☆ [Generalized Preferrential Attachment](https://editor.p5js.org/bidgoli/present/dt2RXBhDa)
   - ⭐⭐⭐ [Lissajous Curve](https://editor.p5js.org/bidgoli/present/lVvNtLUnL)
-  - ⭐⭐☆ [Primes on Spiral](https://editor.p5js.org/bidgoli/present/Vlnckcu9H)
+  - ⭐⭐☆ [Ulam Spiral](https://editor.p5js.org/bidgoli/present/Vlnckcu9H)
   - ⭐⭐☆ [theta ∝ r](https://editor.p5js.org/bidgoli/present/IUJgd1qRc)
   
   
