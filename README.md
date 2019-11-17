@@ -15,12 +15,16 @@ Exploratory-Math-Analysis
   
   
   ----------
+  
+  
   **Interactive Notebooks**
   
   
   You may try every notebook in Binder :   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bidgoli/Exploratory-Math-Analysis/master)
   
   -----------
+  
+  
   ## JavaScript Doodlings!
   
   - ⭐☆☆ [Epicycloids](https://editor.p5js.org/bidgoli/present/ZyJTIeGg4)
