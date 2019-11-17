@@ -1,5 +1,4 @@
 # EMA
-
 Exploratory-Math-Analysis
 
 ## Python Notebooks
@@ -18,8 +17,6 @@ Exploratory-Math-Analysis
   
   
   You may try every notebook in Binder :   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bidgoli/Exploratory-Math-Analysis/master)
-  
-  -----------
   
   
   ## JavaScript Doodlings
