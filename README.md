@@ -19,7 +19,7 @@ Exploratory-Math-Analysis
   You may try every notebook in Binder :   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bidgoli/Exploratory-Math-Analysis/master)
   
   
-  ## JavaScript Doodlings
+## JavaScript Doodlings
   - ⭐☆☆ [Epicycloids](https://editor.p5js.org/bidgoli/present/ZyJTIeGg4)
   - ⭐☆☆ [Espresso](https://editor.p5js.org/bidgoli/present/vdwt7Vc1C)
   - ⭐⭐☆ [Generalized Preferrential Attachment](https://editor.p5js.org/bidgoli/present/dt2RXBhDa)
