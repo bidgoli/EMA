@@ -1,7 +1,7 @@
 # Exploratory-Math-Analysis
 EMA
 
-## Table of Contents
+## Python Notebooks
 - Analysis
   - ⭐⭐⭐ [Polynomial Roots](Analysis/Polynomial_Roots.ipynb)
   - ⭐⭐☆ [Animated Functions _ Polar Coordinate](Analysis/Polar.ipynb)
@@ -14,11 +14,13 @@ EMA
   
   
   ----------
-  ### Interactive Notebooks
+  **Interactive Notebooks**
+  
+  
   You may try every notebook in Binder :   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bidgoli/Exploratory-Math-Analysis/master)
   
   -----------
-  ### Some JavaScript Doodling!
+  ## Some JavaScript Doodling!
   
   - ⭐☆☆ [Epicycloids](https://editor.p5js.org/bidgoli/present/ZyJTIeGg4)
   - ⭐☆☆ [Espresso](https://editor.p5js.org/bidgoli/present/vdwt7Vc1C)
