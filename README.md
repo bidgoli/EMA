@@ -1,5 +1,6 @@
-# Exploratory-Math-Analysis
-EMA
+# EMA
+
+Exploratory-Math-Analysis
 
 ## Python Notebooks
 - Analysis
