@@ -14,9 +14,6 @@ Exploratory-Math-Analysis
   - ⭐☆☆  [Wigner Semicircle Law](Probability/Wigner.ipynb)
   
   
-  ----------
-  
-  
   **Interactive Notebooks**
   
   
@@ -25,8 +22,7 @@ Exploratory-Math-Analysis
   -----------
   
   
-  ## JavaScript Doodlings!
-  
+  ## JavaScript Doodlings
   - ⭐☆☆ [Epicycloids](https://editor.p5js.org/bidgoli/present/ZyJTIeGg4)
   - ⭐☆☆ [Espresso](https://editor.p5js.org/bidgoli/present/vdwt7Vc1C)
   - ⭐⭐☆ [Generalized Preferrential Attachment](https://editor.p5js.org/bidgoli/present/dt2RXBhDa)
