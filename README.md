@@ -24,6 +24,7 @@ Exploratory-Math-Analysis
   - ⭐☆☆ [Espresso](https://editor.p5js.org/bidgoli/present/vdwt7Vc1C)
   - ⭐⭐☆ [Generalized Preferrential Attachment](https://editor.p5js.org/bidgoli/present/dt2RXBhDa)
   - ⭐⭐⭐ [Lissajous Curve](https://editor.p5js.org/bidgoli/present/lVvNtLUnL)
+  - ⭐☆☆ [Random Squares](https://editor.p5js.org/bidgoli/present/qqEBGGW7o)
   - ⭐☆☆ [Summing Randoms](https://editor.p5js.org/bidgoli/present/v3DU4nHqL)
   - ⭐⭐☆ [theta ∝ r](https://editor.p5js.org/bidgoli/present/IUJgd1qRc)
   - ⭐⭐☆ [Ulam Spiral](https://editor.p5js.org/bidgoli/present/Vlnckcu9H)
